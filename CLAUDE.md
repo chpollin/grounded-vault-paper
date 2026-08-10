@@ -28,6 +28,7 @@ What the template leaves open, this instance decided.
 - Output in two tracks off one assertion layer, German blog posts in `40_output/blog/` and English article chapters in `40_output/paper/`. A blog post is never a source of the article; both tracks ground in the same assertions.
 - Working language of content: English for distillates, assertions and glossary, German for the blog prose. This action layer stays English.
 - Footnote wikilinks in the blog stay unaliased, so the English assertion title appears verbatim and no alias drift arises.
+- Final texts of this instance (output prose, glossary, MOC leads) use no colons, no semicolons, and no dashes at all, beyond the operator's global style rules. Code, paths, and technical syntax are exempt.
 - Verification role: the authoring role, digital humanities research at the University of Graz and at Digital Humanities Craft.
 - Machine review: `tools/review.py` with a reviewer model from a different model family than the producing agent.
 
