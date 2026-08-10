@@ -25,7 +25,7 @@ The Obsidian help page on Obsidian Flavored Markdown names the standards Obsidia
   > "| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |" (obsidianhelpofm, Obsidian Flavored Markdown, § Supported Markdown extensions)
 - The same table lists the wikilink `[[Link]]` as an internal link. ^s4
   > "| `[[Link]]`      | [[Internal links]]                                                    |" (obsidianhelpofm, Obsidian Flavored Markdown, § Supported Markdown extensions)
-- The same table lists the block-reference syntax, an embedding wikilink carrying a caret identifier as its subpath, under the heading of supported Markdown extensions. ^s5
+- The same table carries a row for block references whose description cell points to the internal links page, section on linking to a block. ^s5
   > "[[Internal links#Link to a block in a note\|Block references]]" (obsidianhelpofm, Obsidian Flavored Markdown, § Supported Markdown extensions, description cell of the block-reference row; its syntax cell is not reproduced here, see Open questions)
 - The same table lists the highlight syntax `==Text==` among the supported Markdown extensions. ^s6
   > "| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |" (obsidianhelpofm, Obsidian Flavored Markdown, § Supported Markdown extensions)

@@ -28,7 +28,7 @@ The API reference of the MetadataCache class states how Obsidian decomposes an i
 - The source paths of the unresolved link register are vault absolute paths, as in the resolved link register. ^s5
   > "Source paths are all vault absolute paths, similar to <code>resolvedLinks</code>." (obsidiandocsmetadatacache, MetadataCache, § Properties, row unresolvedLinks)
 - The method `fileToLinktext` generates a linktext for a file, using the file name where it is unique and the full path where it is not. ^s6
-  > "If file name is unique, use the filename. If not unique, use full path." (obsidiandocsmetadatacache, MetadataCache, § Methods, row fileToLinktext)
+  > "<p>Generates a linktext for a file.</p><p>If file name is unique, use the filename. If not unique, use full path.</p>" (obsidiandocsmetadatacache, MetadataCache, § Methods, row fileToLinktext; the cell markup is reproduced, because the two sentences stand in separate paragraph elements and no unmarked concatenation of them occurs in the source)
 - The method `getFirstLinkpathDest` returns the best match for a linkpath. ^s7
   > "Get the best match for a linkpath." (obsidiandocsmetadatacache, MetadataCache, § Methods, row getFirstLinkpathDest)
 - The event `changed` is called when a file has been indexed and its updated cache is now available. ^s8
@@ -36,7 +36,7 @@ The API reference of the MetadataCache class states how Obsidian decomposes an i
 - The event `changed` is not called when a file is renamed, for performance reasons, and a caller must hook the vault rename event for that case. ^s12
   > "Note: This is not called when a file is renamed for performance reasons. You must hook the vault rename event for those." (obsidiandocsmetadatacache, MetadataCache, § Methods, row on('changed'))
 - The resolution of a file for the two link registers happens sometimes after that file has been indexed. ^s9
-  > "This happens sometimes after a file has been indexed." (obsidiandocsmetadatacache, MetadataCache, § Methods, row on('resolve'))
+  > "Called when a file has been resolved for <code>resolvedLinks</code> and <code>unresolvedLinks</code>. This happens sometimes after a file has been indexed." (obsidiandocsmetadatacache, MetadataCache, § Methods, row on('resolve'))
 - The event `resolved` fires when all files have been resolved, and it fires again each time files are modified after the initial load. ^s10
   > "Called when all files has been resolved. This will be fired each time files get modified after the initial load." (obsidiandocsmetadatacache, MetadataCache, § Methods, row on('resolved'))
 - The file is generated automatically by API Documenter and is not to be edited. ^s11

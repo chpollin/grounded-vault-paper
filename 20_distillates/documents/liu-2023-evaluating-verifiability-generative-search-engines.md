@@ -18,7 +18,7 @@ The source defines citation recall and citation precision as the two measures of
 
 - The source defines verifiability as the property that every generated statement about the external world is fully supported by its in-line citations and every citation supports the statement it is attached to. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b03]] ^s1
 
-- The source reports that across all audited systems and responses only 51.5% of generated sentences are fully supported by citations and only 74.5% of citations support the sentence they are attached to. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b01]] ^s2
+- The source reports that on average a mere 51.5% of generated sentences are fully supported by citations and only 74.5% of citations support the sentence they are attached to. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b01]] ^s2
 
 - The source audits four commercial generative search engines, Bing Chat, NeevaAI, perplexity.ai and YouChat, by human evaluation. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b04]] ^s3
 
@@ -44,9 +44,9 @@ The source defines citation recall and citation precision as the two measures of
 
 - The source reports that citation recall varies from 68.7 for perplexity.ai down to 11.1 for YouChat, and citation precision from 89.5 for Bing Chat down to 63.6 for YouChat. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b52]] ^s14
 
-- The source reports that changing the query distribution affects citation recall more than citation precision, with a gap of nearly 11% in recall between NaturalQuestions queries with a long answer and non-NaturalQuestions queries (58.5 versus 47.8). [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b53]] ^s15
+- The source reports that modifying the evaluation query distribution appears to affect citation recall more than citation precision, with a gap of nearly 11% in recall between NaturalQuestions queries with a long answer and non-NaturalQuestions queries (58.5 versus 47.8). [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b53]] ^s15
 
-- The source hypothesizes that citation recall is driven by the relevance of the retrieved webpages, and reports an average recall of 44.3 on open-ended essay questions that have no extractive answer on the Internet. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b54]] ^s16
+- The source hypothesizes that citation recall is driven by the relevance of the retrieved webpages, and reports an average recall of 44.3 on open-ended essay questions, which generally have no extractive answer on the Internet. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b54]] ^s16
 
 - The source reports that citation precision is inversely correlated with perceived utility across the audited systems, at r = -0.96. [[10_markdown/documents/liu-2023-evaluating-verifiability-generative-search-engines#^b57]] ^s17
 

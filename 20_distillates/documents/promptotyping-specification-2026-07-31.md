@@ -38,7 +38,7 @@ The method paper of Promptotyping in its review draft of 31 July 2026, from whic
 
 - The paper distinguishes the persistent project knowledge base, which preserves the project's maintained understanding and decisions, from an agent's task-specific working context, which holds the information and access required for a particular assignment, and states that retrieval and direct access to project resources supplement rather than replace the maintained account. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p026]] ^s11
 
-- The paper states that Context Engineering organises the task-specific information and project access available to an agent while Agentic Engineering structures how the agent acts within those conditions, that neither compensates for the other, and that Promptotyping treats selection as part of Context Engineering rather than using accumulation as a substitute for it. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p027]] ^s12
+- The paper states that Context Engineering organises the task-specific information and project access available to an agent while Agentic Engineering structures how the agent acts within those conditions, that a carefully maintained knowledge base does not determine an adequate course of action and a well-organised agentic workflow cannot compensate for an inadequate account of the data or research purpose, and that Promptotyping treats selection as part of Context Engineering. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p027]] ^s12
 
 - The paper organises Promptotyping around the four recurrent phases of work Preparation, Exploration, Distillation and Implementation, calls them analytically distinct but not a fixed or exclusively linear sequence, and states that findings arising from Implementation may return the work to any earlier phase, most frequently to Distillation. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p029]] ^s13
 
@@ -50,7 +50,7 @@ The method paper of Promptotyping in its review draft of 31 July 2026, from whic
 
 - The paper defines the promptotype as the accepted iteration state in which maintained project knowledge, the resulting digital research artefact, the referenced research-data state and the documented grounds of acceptance form a coherent and identifiable state for a stated purpose, assigns acceptance to the Critical Expert, and states that an agent may contribute proposals and assessments but cannot assume responsibility for their adequacy. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p043]] ^s17
 
-- The paper states that examining implemented workflows requires several forms of checking with different evidential scope and authority, because scholarly adequacy depends not only on conformity to specified requirements but also on the interpretation of sources, the modelling decisions through which they are represented, and the purpose for which the resulting data are intended. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p051]] ^s18
+- The paper reports that the examination of the implemented workflows of these two cases required several forms of checking with different evidential scope and authority, and states that in scholarly research adequacy depends not only on conformity to specified requirements but also on the interpretation of sources, the modelling decisions through which they are represented, and the purpose for which the resulting data are intended. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p051]] ^s18
 
 - The paper defines deterministic verification as testing conformity to formalised requirements through schemas, constraints, transformation tests, structural audits and reproducible measurements, and limits its conclusions to the properties encoded by the check, so that it does not establish that the requirements themselves are adequate. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p052]] ^s19
 
@@ -60,7 +60,7 @@ The method paper of Promptotyping in its review draft of 31 July 2026, from whic
 
 - The paper defines scholarly validation as the assessment of whether the representations, requirements, evaluation criteria and artefacts governing the workflow are warranted by the research material and adequate for their intended scholarly purpose. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p055]] ^s22
 
-- The paper distinguishes agentic review from LLM-as-a-Judge, which it describes as evaluating a supplied output under a given reference or rubric and returning a score, ranking or judgement, and treats LLM-as-a-Judge as one operation within agentic review that does not exhaust it. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p056]] ^s23
+- The paper distinguishes agentic review from LLM-as-a-Judge, which it describes as typically evaluating a supplied output under a given reference or rubric and returning a score, ranking or judgement, and states that LLM-as-a-Judge can be one operation within agentic review. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p056]] ^s23
 
 - The paper makes the evidential value of agentic review depend on how the investigation is organised, and states that its findings remain probabilistic evidence rather than authorised verification, scholarly validation or acceptance. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p057]] ^s24
 
@@ -72,7 +72,7 @@ The method paper of Promptotyping in its review draft of 31 July 2026, from whic
 
 - The paper states that dividing agentic work among several agents does not transfer responsibility to them, that their assignments and permissions should remain explicit and auditable with access limited to the delegated task, and that increasing the number of agents may increase the work required to coordinate and audit their actions. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p077]] ^s28
 
-- The paper requires the accepted state to remain identifiable and reconstructable through a repository release, an archived deposit or another durable reference, prescribes neither GitHub nor Semantic Versioning, and counts a renewed implementation using another model, harness or project state as a new iteration rather than a reproduction of the earlier promptotype. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p079]] ^s29
+- The paper requires the accepted state to remain identifiable and reconstructable through a repository release, an archived deposit or another durable reference, prescribes neither GitHub nor Semantic Versioning, and counts a renewed implementation using another model, harness or project state as a new iteration rather than a silent reproduction of the earlier promptotype. [[10_markdown/documents/promptotyping-specification-2026-07-31#^p079]] ^s29
 
 ## Terms
 

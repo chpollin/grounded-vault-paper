@@ -19,7 +19,11 @@ The Obsidian help page on internal links sets out the link formats, the characte
 
 - Obsidian can automatically update the internal links of a vault when a file is renamed. ^s1
   > "Obsidian can automatically update internal links in your vault when you rename a file." (obsidianhelplinks, Internal links, § lead)
-- Obsidian supports two link formats, the wikilink and the Markdown link, and the two are equivalent and resolve to the same note. ^s2
+- Obsidian supports two link formats for internal links, the wikilink and the Markdown link. ^s2
+  > "Obsidian supports the following link formats:
+  > - Wikilink: `\[\[Three laws of motion\]\]` or `\[\[Three laws of motion.md\]\]`
+  > - Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` or `[Three laws of motion](Three%20laws%20of%20motion.md)`" (obsidianhelplinks, Internal links, § Supported formats for internal links; the square brackets of the wikilink examples are backslash-escaped here, because a literal wikilink in a vault document is read by the validator as an anchor of this vault)
+- The two link forms appear the same way in the editor and link to the same note. ^s20
   > "The examples above are equivalent, and they appear the same way in the editor and links to the same note." (obsidianhelplinks, Internal links, § Supported formats for internal links)
 - A link into a folder carries the folder path before the note name, and folder paths start at the vault root and use forward slashes even on Windows. ^s3
   > "To link to a note in a folder, include the folder path before the note name. Folder paths start at the vault root and use forward slashes (`/`), even on Windows" (obsidianhelplinks, Internal links, § Supported formats for internal links)
@@ -33,7 +37,7 @@ The Obsidian help page on internal links sets out the link formats, the characte
   > "Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content." (obsidianhelplinks, Internal links, § Link to a file, callout)
 - A link to a heading in another note is written by appending a hash to the link destination followed by the heading text. ^s8
   > "To link to a heading in another note, add a hash (`#`) at the end of the link destination, followed by the heading text." (obsidianhelplinks, Internal links, § Link to a heading in a note)
-- A subheading is addressed by adding a further hash symbol for each level. ^s19
+- Multiple hash symbols can be added for each subheading. ^s19
   > "You can add multiple hash symbols for each subheading." (obsidianhelplinks, Internal links, § Link to a heading in a note)
 - A block is a unit of text in a note, such as a paragraph, a block quote or a list item. ^s9
   > "A block is a unit of text in your note, such as a paragraph, block quote, or list item." (obsidianhelplinks, Internal links, § Link to a block in a note)

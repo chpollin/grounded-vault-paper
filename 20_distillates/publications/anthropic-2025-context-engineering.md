@@ -29,10 +29,10 @@ An engineering post by the model vendor that fixes the term context engineering,
 - The post separates the two by their temporal shape, calling prompt writing a discrete task and context curation a step that recurs at every handover to the model. ^s4
   > "In contrast to the discrete task of writing a prompt, context engineering is iterative and the curation phase happens each time we decide what to pass to the model." (anthropic2025context, section "Context engineering vs. prompt engineering")
 
-- The post reports context rot, the observation that recall accuracy from the context window falls as the number of tokens in it rises. ^s5
-  > "as the number of tokens in the context window increases, the model’s ability to accurately recall information from that context decreases." (anthropic2025context, section "Why context engineering is important to building capable agents")
+- The post attributes the concept of context rot to needle-in-a-haystack benchmarking and states it as the decline of accurate recall from the context window as the number of tokens in it rises. ^s5
+  > "Studies on needle-in-a-haystack style benchmarking have uncovered the concept of context rot: as the number of tokens in the context window increases, the model’s ability to accurately recall information from that context decreases." (anthropic2025context, section "Why context engineering is important to building capable agents")
 
-- The post states the resulting criterion for good context engineering as the smallest set of high-signal tokens that still makes the desired outcome likely. ^s6
+- The post states the criterion for good context engineering as finding the smallest possible set of high-signal tokens that maximize the likelihood of some desired outcome. ^s6
   > "good context engineering means finding the smallest possible set of high-signal tokens that maximize the likelihood of some desired outcome." (anthropic2025context, section "The anatomy of effective context")
 
 ## Terms

@@ -20,11 +20,11 @@ The source builds ALCE, a benchmark that scores a generated answer with citation
 
 - The source states that citations let users verify a model's claims and that generating text which follows the cited passages holds the promise of improving correctness and reducing hallucination. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b03]] ^s2
 
-- The source argues that prior work on citation-producing systems relies on commercial search engines, closed models and human evaluation, and that the absence of automated evaluation holds such systems back. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b04]] ^s3
+- The source argues that prior work on citation-producing systems mainly experiments with commercial search engines and closed-source models and mostly relies on human evaluation, and that the absence of automated evaluation hinders the advances of such systems. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b04]] ^s3
 
 - The source formalizes the task as returning an output that consists of statements, each of which cites a list of passages from the corpus, and segments model output into statements at sentence boundaries. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b09]] ^s4
 
-- The source divides the retrieval corpus into 100-word passages, on the grounds that a short passage is easier for a human to verify than an entire Web page. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b10]] ^s5
+- The source divides the retrieval corpus into 100-word passages, on the grounds that such a passage is easier for humans to verify and allows more retrieved passages to fit into the limited context of an LLM. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b10]] ^s5
 
 - The source states that its benchmark measures three dimensions of a system response. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b16]] ^s6
 
@@ -48,7 +48,7 @@ The source builds ALCE, a benchmark that scores a generated answer with citation
 
 - The source reports that its automatic citation metrics agree with human judgments at a Cohen's kappa of 0.698 for citation recall and 0.525 for citation precision, and reach an accuracy of 85.1% for citation recall and 77.6% for citation precision against human annotations. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b39]] ^s16
 
-- The source names enhancing retrieval, developing long-context models and advancing the ability to synthesize multiple sources as the research directions its experiments point to. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b41]] ^s17
+- The source names, among others, enhancing retrieval, developing long-context models and advancing the ability to synthesize multiple sources as promising research directions its experiments point to. [[10_markdown/documents/gao-2023-llms-generate-text-with-citations#^b41]] ^s17
 
 ## Terms
 
