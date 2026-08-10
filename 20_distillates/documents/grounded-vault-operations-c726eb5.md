@@ -116,17 +116,19 @@ The procedure document of the Grounded Vault profile at commit `c726eb5`, from w
 
 - Machine review records its date, and verdicts below fully supports trigger rework and are noted in the journal when they reveal a systematic pattern. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops50]] ^s50
 
-- A machine review pair consists of the anchored location, which for documents is the block plus its heading path, for publications the quotation and for data the computation and its result, together with the bare statement, and nothing else enters the pair. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops52]] ^s51
+- The machine review prompt casts the reviewer as adversarial with the task of refuting the statement, restricts the judgment to whether this passage supports this statement, requires exactly one verdict from the fixed vocabulary followed by one sentence of justification, and supplies the reviewer with the source location including its heading path and the statement alone. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops51]] ^s51
 
-- Verification judges by human expert judgment whether a grounding relation holds as evidence, and its authority is the verification role named in the specification. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops53]] ^s52
+- A machine review pair consists of the anchored location, which for documents is the block plus its heading path, for publications the quotation and for data the computation and its result, together with the bare statement, and nothing else enters the pair. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops52]] ^s52
 
-- Verification alone lifts a document to verified, and the machine checks prepare it but never replace it. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops54]] ^s53
+- Verification judges by human expert judgment whether a grounding relation holds as evidence, and its authority is the verification role named in the specification. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops53]] ^s53
 
-- Verification proceeds passage by passage on the prepared pairs and may sample where the machine review pass rate justifies it, with the sampling rule noted in the journal. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops55]] ^s54
+- Verification alone lifts a document to verified, and the machine checks prepare it but never replace it. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops54]] ^s54
 
-- Verification records its date, set by or on behalf of the verifying role. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops56]] ^s55
+- Verification proceeds passage by passage on the prepared pairs and may sample where the machine review pass rate justifies it, with the sampling rule noted in the journal. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops55]] ^s55
 
-- The status ladder runs from grounded through validated, reached when validation and machine review have passed, to verified, reached when the expert has passed, while contested is set by assertion building or review when sources conflict and is resolved only by verification, and a document's status is the minimum of its anchors' states. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops57]] ^s56
+- Verification records its date, set by or on behalf of the verifying role. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops56]] ^s56
+
+- The status ladder runs from grounded through validated, reached when validation and machine review have passed, to verified, reached when the expert has passed, while contested is set by assertion building or review when sources conflict and is resolved only by verification, and a document's status is the minimum of its anchors' states. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops57]] ^s57
 
 ## Terms
 
