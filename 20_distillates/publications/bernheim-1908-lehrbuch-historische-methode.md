@@ -3,10 +3,11 @@ type: distillate
 source-type: publication
 reference: "bernheim1908lehrbuch"
 topics: ["[[Verification]]", "[[Provenance]]"]
-status: grounded
+status: validated
 checked:
   quote: 2026-08-10
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---

@@ -3,9 +3,10 @@ type: distillate
 source-type: document
 representation: "[[10_markdown/documents/gao-2023-llms-generate-text-with-citations]]"
 topics: ["[[Verification]]", "[[Architecture]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---

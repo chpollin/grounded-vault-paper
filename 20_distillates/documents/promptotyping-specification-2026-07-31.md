@@ -3,9 +3,10 @@ type: distillate
 source-type: document
 representation: "[[10_markdown/documents/promptotyping-specification-2026-07-31]]"
 topics: ["[[Architecture]]", "[[Agentic Workflow]]", "[[Verification]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---

@@ -1,7 +1,7 @@
 ---
 type: assertion
 topics: ["[[Verification]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
   machine-review: 2026-08-10

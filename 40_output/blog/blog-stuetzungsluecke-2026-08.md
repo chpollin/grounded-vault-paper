@@ -1,7 +1,9 @@
 ---
 type: chapter
-status: grounded
-checked: {}
+status: validated
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 assertions:
   - "[[30_assertions/generated-citations-often-fail-to-support-their-sentences]]"
   - "[[30_assertions/source-binding-lowers-unsupported-citation-without-eliminating-it]]"

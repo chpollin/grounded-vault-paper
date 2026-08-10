@@ -3,9 +3,10 @@ type: distillate
 source-type: document
 representation: "[[10_markdown/documents/liu-2024-lost-in-the-middle]]"
 topics: ["[[Architecture]]", "[[Agentic Workflow]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---
