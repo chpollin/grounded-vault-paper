@@ -35,7 +35,7 @@ The National Archives sets out twelve criteria for choosing a file format for lo
 - Formats supported by a wide range of software or independent of platform are most desirable for exchanging records, and this also tends to support long-term sustainability by facilitating migration from one technical environment to another. [[10_markdown/documents/tna-selecting-file-formats-2008#^tna-21]] ^s17
 - Formats that provide error-detection facilities, such as a CRC value, are more robust and thus preferable. [[10_markdown/documents/tna-selecting-file-formats-2008#^tna-22]] ^s18
 - Certain types of data must retain the ability to be processed if they are to have any re-use value, and converting a spreadsheet into PDF effectively removes much of its ability to be processed. [[10_markdown/documents/tna-selecting-file-formats-2008#^tna-23]] ^s19
-- The value of such metadata depends on the degree of support the software environment used to create the files provides and on the extent to which externally stored metadata is used in its place. [[10_markdown/documents/tna-selecting-file-formats-2008#^tna-26]] ^s20
+- Under Metadata Support the note lists two factors, the degree of support provided by the software environment used to create the files and the extent to which externally stored metadata is used in its place. [[10_markdown/documents/tna-selecting-file-formats-2008#^tna-26]] ^s20
 
 ## Terms
 
