@@ -5,7 +5,7 @@ description: Synthesize cross-source assertions in 30_assertions from the distil
 
 # Build assertions
 
-Follow `knowledge/operations.md` § Build assertions for the synthesis procedure and the review prompt, and `knowledge/schema.md` § Assertion for frontmatter and section skeleton. The hard rules in `CLAUDE.md` apply unchanged, in particular that an own conclusion becomes a posit in the output and never an assertion.
+Follow the template's `knowledge/operations.md` (locally `../grounded-vault/knowledge/`) § Build assertions for the synthesis procedure and the review prompt, and its `knowledge/schema.md` § Assertion for frontmatter and section skeleton. The hard rules in `CLAUDE.md` apply unchanged, in particular that an own conclusion becomes a posit in the output and never an assertion.
 
 1. Read every distillate the topic map registers, and group the statements that concern the same matter.
 2. Write one atomic assertion per group, and list every supporting statement ID in `grounding`.

@@ -5,7 +5,7 @@ description: Produce the distillate of one ingested source in 20_distillates, wi
 
 # Distill a source
 
-Follow `knowledge/operations.md` § Distill for the three-stage chain and the canonical extraction prompt, and `knowledge/schema.md` § Distillate for frontmatter and section skeleton. The hard rules in `CLAUDE.md` apply unchanged; statement IDs are minted here and nowhere else.
+Follow the template's `knowledge/operations.md` (locally `../grounded-vault/knowledge/`) § Distill for the three-stage chain and the canonical extraction prompt, and its `knowledge/schema.md` § Distillate for frontmatter and section skeleton. The hard rules in `CLAUDE.md` apply unchanged; statement IDs are minted here and nowhere else.
 
 1. Extract the core statements of this one source with the canonical prompt, one statement per anchor, without evaluation, interpretation or cross-source merging.
 2. Format deterministically into the section skeleton, with statement IDs and the anchor syntax the source type requires.

@@ -8,18 +8,18 @@ The construction is self-applying. The texts about the build form are written wi
 
 - `HOME.md` for human readers, best opened as an Obsidian vault.
 - `CLAUDE.md` for agents; it routes into the rule documents and duplicates none of them.
-- `knowledge/specification.md` for what this instance decided, including the claim list and the two output tracks.
+- The template repository <https://github.com/DigitalHumanitiesCraft/grounded-vault> for the architecture, its schema and its procedures; this instance keeps no governance layer of its own.
 
 ## Quickstart
 
 ```
 uv sync                        # or: pip install pyyaml pytest
 python tools/validate.py .     # conformance check of the whole vault
-python tools/inventory.py . --write   # regenerate the source inventory in knowledge/state.md
+python tools/inventory.py .    # print the source inventory
 python -m pytest tests         # the validator's own test suite
 ```
 
-A run without errors is not the whole criterion. Every warning is a finding, and a fresh instance carries `W-NO-OUTPUT` until the first chapter exists.
+A run without errors is not the whole criterion. Every warning is a finding, and a fresh instance carries `W-EMPTY` and `W-NO-OUTPUT` until the first source and the first chapter exist.
 
 ## Licence
 

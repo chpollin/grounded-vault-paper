@@ -1,6 +1,6 @@
 # Grounded Vault Research Blog and Paper
 
-Human entry point of this vault. What this vault produces and on what topic is stated in the purpose section of [[knowledge/specification]]. Every load-bearing statement here is anchored to its source material, and the checking state of every statement is readable at the statement itself.
+Human entry point of this vault. This vault produces a research blog on the Grounded Vault architecture and, from the same assertion layer, a scholarly article on it. Every load-bearing statement here is anchored to its source material, and the checking state of every statement is readable at the statement itself.
 
 ## The chain
 
@@ -30,9 +30,8 @@ Footnotes in both lead to assertions; click through to the supporting passages.
 
 ## Understand the machine room
 
-- [[knowledge/index]] — navigation and terminology.
-- [[knowledge/state]] — source inventory and chapter register.
-- [[knowledge/journal]] — why things are the way they are.
+- `CLAUDE.md` — the instance parameters and the hard rules.
+- The template repository <https://github.com/DigitalHumanitiesCraft/grounded-vault> — the architecture, its schema and its procedures. This instance keeps no governance layer of its own.
 
 ## How to read a status
 
