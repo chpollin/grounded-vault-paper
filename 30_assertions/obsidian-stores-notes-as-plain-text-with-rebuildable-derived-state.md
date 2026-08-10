@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Architecture]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/publications/obsidian-help-data-storage#^s1]]"
   - "[[20_distillates/publications/obsidian-help-data-storage#^s2]]"
@@ -15,11 +17,11 @@ created: 2026-08-10
 updated: 2026-08-10
 ---
 
-# Obsidian stores notes as plain text files with rebuildable derived state
+# Obsidian stores notes as plain text files beside a rebuildable metadata cache
 
 ## Statement
 
-Obsidian stores notes as Markdown-formatted plain text files in a vault, and a vault is a folder on the local file system including any subfolders. Because the notes are plain text files, other text editors and file managers can edit and manage them, and the application refreshes the vault to keep up with such external changes. Beside the files the application maintains a local record of metadata about them, the metadata cache, which serves speed of use and is preserved in a client-side database while the application is closed. That record is derived state. The vendor states that it can fall out of sync with the underlying files and that it can then be rebuilt from the app settings, so the files carry the content and the cache carries what can be produced again.
+Obsidian stores notes as Markdown-formatted plain text files in a vault, and a vault is a folder on the local file system including any subfolders. Because the notes are plain text files, other text editors and file managers can edit and manage them, and the application refreshes the vault to keep up with such external changes. Beside the files the application maintains a local record of metadata about them, the metadata cache, which serves speed of use and is preserved in a client-side database while the application is closed. The vendor states that this record can fall out of sync with the underlying files and that it can then be rebuilt from the app settings.
 
 ## Support
 

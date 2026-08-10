@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Provenance]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/documents/prov-constraints-20130430#^s4]]"
   - "[[20_distillates/documents/prov-constraints-20130430#^s5]]"
@@ -17,7 +19,7 @@ updated: 2026-08-10
 
 ## Statement
 
-PROV-CONSTRAINTS fixes the validity of a provenance record as a property of the record itself. A valid PROV instance corresponds to a consistent history of objects and interactions to which logical reasoning can be safely applied, and the specification says that this notion of validity differs from the usual meaning of validity in logic and is closer to logical consistency. Formally an instance is valid when its normal form exists and all validity constraints succeed on that normal form. PROV positions provenance as an input to trust decisions, since the provenance of information is treated as crucial for deciding whether information is to be trusted, how it should be integrated with other sources, and how credit is given to its originators.
+PROV-CONSTRAINTS fixes the validity of a provenance record as a property of the record itself. A valid PROV instance corresponds to a consistent history of objects and interactions to which logical reasoning can be safely applied, and the specification says that this notion of validity differs from the usual meaning of validity in logic and is closer to logical consistency. Formally an instance is valid when its normal form exists and all validity constraints succeed on that normal form. PROV-DM treats the provenance of information as crucial for deciding whether information is to be trusted, how it should be integrated with other sources, and how credit is given to its originators.
 
 ## Support
 

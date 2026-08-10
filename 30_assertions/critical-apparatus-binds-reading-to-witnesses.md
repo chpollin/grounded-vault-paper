@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Provenance]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/documents/tei-p5-critical-apparatus#^s12]]"
   - "[[20_distillates/documents/tei-p5-critical-apparatus#^s16]]"
@@ -18,7 +20,7 @@ updated: 2026-08-10
 
 ## Statement
 
-In the TEI encoding of a critical apparatus a given reading is associated with the set of witnesses attesting it by listing those witnesses in the wit attribute on the rdg or lem element. That attribute holds a space-delimited list of one or more pointers indicating the attesting witnesses, and each witness carries a unique siglum supplied with the global xml:id attribute, which is the identifier used elsewhere to refer to that witness. A list of all identified witnesses is normally supplied in the front matter of the edition or in the sourceDesc element of its header. The binding is differentiated by role, since wit identifies the physical entity in which the reading is found, hand refers to the agent responsible for inscribing it there, and source indicates the scholar responsible for asserting that the reading exists in that physical entity.
+In the TEI encoding of a critical apparatus a given reading is associated with the set of witnesses attesting it by listing those witnesses in the wit attribute on the rdg or lem element. That attribute holds a space-delimited list of one or more pointers indicating the attesting witnesses. The Guidelines state that a unique siglum should always be supplied for each witness with the global xml:id attribute, and that identifier can then be used elsewhere to refer to the witness. They further state that a list of all identified witnesses should normally be supplied in the front matter of the edition or in the sourceDesc element of its header, as a listBibl or a listWit. The binding is differentiated by role, since wit identifies the physical entity in which the reading is found, hand refers to the agent responsible for inscribing it there, and source indicates the scholar responsible for asserting that the reading exists in that physical entity.
 
 ## Support
 

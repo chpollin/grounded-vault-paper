@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Verification]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/documents/liu-2023-evaluating-verifiability-generative-search-engines#^s2]]"
   - "[[20_distillates/documents/liu-2023-evaluating-verifiability-generative-search-engines#^s14]]"
@@ -15,7 +17,7 @@ updated: 2026-08-10
 
 ## Statement
 
-A human audit of four commercial generative search engines found that only 51.5% of generated sentences are fully supported by their citations and only 74.5% of citations support the sentence they are attached to. The shortfall is present in every audited system and its size varies widely between them, with citation recall running from 68.7 for the best system down to 11.1 for the weakest and citation precision from 89.5 down to 63.6.
+Across the audited generative search engines and their responses, only 51.5% of generated sentences are fully supported by their citations and only 74.5% of citations support the sentence they are attached to. Between systems the size of the shortfall varies widely, with citation recall running from 68.7 for the strongest system on that metric down to 11.1 for the weakest, and citation precision from 89.5 down to 63.6.
 
 ## Support
 

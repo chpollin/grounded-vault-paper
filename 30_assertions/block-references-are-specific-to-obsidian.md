@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Architecture]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/publications/obsidian-help-internal-links#^s16]]"
   - "[[20_distillates/publications/obsidian-help-obsidian-flavored-markdown#^s5]]"
@@ -15,7 +17,7 @@ updated: 2026-08-10
 
 ## Statement
 
-Block references are specific to Obsidian and are no part of the standard Markdown format, and links containing them do not work outside Obsidian. The vendor states this twice over, once as an interoperability note on the page that describes the syntax, and once by listing the block-reference row in the table of supported Markdown extensions, the table by which the application marks off what it adds to the standards it supports.
+Block references are specific to Obsidian and are no part of the standard Markdown format, and links containing them do not work outside Obsidian. The vendor states this as an interoperability note on the page that describes the syntax, and the table of supported Markdown extensions lists the block reference as a row.
 
 ## Support
 

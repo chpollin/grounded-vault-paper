@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Verification]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/documents/llm-evaluators-self-preference-2024#^s4]]"
   - "[[20_distillates/documents/llm-evaluators-self-preference-2024#^s1]]"

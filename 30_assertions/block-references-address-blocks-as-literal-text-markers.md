@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Architecture]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/publications/obsidian-help-internal-links#^s9]]"
   - "[[20_distillates/publications/obsidian-help-internal-links#^s10]]"

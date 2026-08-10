@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Verification]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/publications/langlois-seignobos-1898-introduction#^s1]]"
   - "[[20_distillates/publications/langlois-seignobos-1898-introduction#^s2]]"
@@ -17,7 +19,7 @@ updated: 2026-08-10
 
 ## Statement
 
-Nineteenth century historical method splits source criticism into two stages that are carried out in order. The first stage examines the material transmission of the document, its writing, its language, its forms and its sources, in order to restore the original wording and determine the provenance, and it decides whether the data are admissible as testimony at all. The second stage judges what the author meant, whether he believed what he said and whether he was entitled to believe it, and it weighs how the testimonies stand to the facts. Langlois and Seignobos name the two stages critique externe and critique interne, Bernheim names them outer and inner criticism, and Bernheim makes the ordering explicit by requiring the result of the first stage to be established before the second proceeds.
+The classical handbooks of historical method split source criticism into two stages that are carried out in order. The first stage examines the material transmission of the document, its writing, its language, its forms and its sources, in order to restore the original wording and determine the provenance, and it decides whether the data are admissible as testimony at all. The second stage judges what the author meant, whether he believed what he said and whether he was entitled to believe it, and it weighs how the testimonies stand to the facts. Langlois and Seignobos name the two stages critique externe and critique interne, Bernheim names them outer and inner criticism, and Bernheim makes the ordering explicit by requiring the result of the first stage to be established before the second proceeds.
 
 ## Support
 

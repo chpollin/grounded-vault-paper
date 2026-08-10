@@ -11,9 +11,9 @@ The built substrate of the method. It covers the layer chain, the source typolog
 
 - [[30_assertions/card-index-organizes-knowledge-as-addressable-linked-notes]], fixed positions and a maintained reference structure carry the yield of Luhmann's card index.
 - [[30_assertions/plain-text-meets-archival-format-criteria]], the archival guidances name openness and independence as criteria and rank structured formats above plain text for published works.
-- [[30_assertions/obsidian-stores-notes-as-plain-text-with-rebuildable-derived-state]], notes live in plain Markdown files while the app's database holds rebuildable derived state.
+- [[30_assertions/obsidian-stores-notes-as-plain-text-with-rebuildable-derived-state]], notes live in plain Markdown files beside a rebuildable metadata cache.
 - [[30_assertions/block-references-address-blocks-as-literal-text-markers]], the block identifier is written into the file itself with a restricted character set.
-- [[30_assertions/obsidian-link-registers-map-files-to-files]], the metadata API's link registers name no level below the file.
+- [[30_assertions/obsidian-link-registers-map-files-to-files]], the declared types of the link registers provide no level below the file.
 - [[30_assertions/block-references-are-specific-to-obsidian]], the vendor states that block references sit outside standard Markdown and work only in Obsidian.
 
 ## Open questions

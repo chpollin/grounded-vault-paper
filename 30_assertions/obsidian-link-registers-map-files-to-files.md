@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Architecture]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/publications/obsidian-docs-metadatacache#^s2]]"
   - "[[20_distillates/publications/obsidian-docs-metadatacache#^s3]]"
@@ -17,7 +19,7 @@ updated: 2026-08-10
 
 ## Statement
 
-The two link registers of the metadata cache are stated in the API reference as mappings between files. The property holding all resolved links maps the path of each source file to an object of destination file paths with the link count, and the property holding all unresolved links maps each source file to an object of unknown destinations with count, whose source paths are vault absolute paths as in the resolved register. Both registers carry the declared type of a mapping from string to a mapping of string to number, which gives two levels of key and a count. The reference names no level below the file in either register.
+The two link registers of the metadata cache are stated in the API reference as mappings between files. The property holding all resolved links maps the path of each source file to an object of destination file paths with the link count, and the property holding all unresolved links maps each source file to an object of unknown destinations with count, whose source paths are vault absolute paths as in the resolved register. Both registers carry the declared type of a mapping from string to a mapping of string to number, which gives two levels of key and a count. Both registers key on file paths, and their declared types provide no further level.
 
 ## Support
 

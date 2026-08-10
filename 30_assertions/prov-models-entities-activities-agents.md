@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Provenance]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/documents/prov-dm-20130430#^s10]]"
   - "[[20_distillates/documents/prov-dm-20130430#^s11]]"

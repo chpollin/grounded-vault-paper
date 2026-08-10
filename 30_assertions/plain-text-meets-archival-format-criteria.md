@@ -2,7 +2,9 @@
 type: assertion
 topics: ["[[Architecture]]"]
 status: grounded
-checked: {}
+checked:
+  validation: 2026-08-10
+  machine-review: 2026-08-10
 grounding:
   - "[[20_distillates/documents/loc-recommended-formats-2025-2026#^s1]]"
   - "[[20_distillates/documents/loc-recommended-formats-2025-2026#^s8]]"
@@ -18,11 +20,11 @@ created: 2026-08-10
 updated: 2026-08-10
 ---
 
-# Plain text meets the archival format criteria of openness and independence while ranking below structured formats for published text
+# Plain text counts as an open format and ranks below structured formats for published text
 
 ## Statement
 
-The three archival guidances converge on the properties by which a preservation format is judged, among them disclosure of the specification and its availability in the public domain, adoption and wide use, freedom from external dependencies, and the availability of a range of supporting software that removes dependence on any single supplier. The National Archives recommends formats whose specifications are public and highly recommends open standard formats, and it names ASCII as a case in which the advantages of an open format come at the cost of a loss in structure, context and functionality. That cost is what the ranking of published textual works reflects. The Library of Congress prefers XML-based markup with schema and stylesheets, EPUB3, established book schemas such as TEI and DocBook, and the page-layout formats, while plain text sits in the acceptable tier, inside the last group of an ordered preference list. The guidances name the reasons that bear on this position, the loss of structure such as text formatting and of context such as internal pointers when a word-processed document is kept as plain ASCII, and a general preference for formats that offer metadata support.
+The three archival guidances converge on the properties by which a preservation format is judged, among them disclosure of the specification and its availability in the public domain, adoption and wide use, freedom from external dependencies, and the availability of a range of supporting software that removes dependence on any single supplier. The National Archives recommends formats whose specifications are public and highly recommends open standard formats, and it names ASCII as a case in which the advantages of an open format come at the cost of a loss in structure, context and functionality. The Library of Congress prefers XML-based markup with schema and stylesheets, EPUB3, established book schemas such as TEI and DocBook, and the page-layout formats, while plain text sits in the acceptable tier, inside the last group of an ordered preference list. The guidances name the reasons that bear on this position, the loss of structure such as text formatting and of context such as internal pointers when a word-processed document is kept as plain ASCII, and a general preference for formats that offer metadata support.
 
 ## Support
 
