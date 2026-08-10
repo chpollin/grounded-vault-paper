@@ -30,7 +30,7 @@ What the template leaves open, this instance decided.
 - Footnote wikilinks in the blog stay unaliased, so the English assertion title appears verbatim and no alias drift arises.
 - Final texts of this instance (output prose, glossary, MOC leads) use no colons, no semicolons, and no dashes at all, beyond the operator's global style rules. Code, paths, and technical syntax are exempt.
 - Verification role: the authoring role, digital humanities research at the University of Graz and at Digital Humanities Craft.
-- Machine review: `tools/review.py` with a reviewer model from a different model family than the producing agent.
+- Machine review: adversarial review under the template's review contract, executed by Claude Opus subagents (operator decision, 2026-08-10). This deviates from the template's cross-family recommendation and is a documented design decision of this instance; the shared-family risk is named in the output where the review is described. Anti-anchoring stays mandatory, the reviewer sees only the pair, never the producing agent's reasoning.
 
 ## Hard rules
 

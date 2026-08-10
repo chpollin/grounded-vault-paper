@@ -5,6 +5,9 @@
 # Local credentials (reviewer APIs, reference manager)
 .env
 
+# Obsidian workspace state; the vault opens without it
+.obsidian/
+
 # Python
 __pycache__/
 .pytest_cache/
