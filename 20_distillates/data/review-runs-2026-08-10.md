@@ -3,9 +3,10 @@ type: distillate
 source-type: data
 representation: "[[10_markdown/data/review-runs-2026-08-10]]"
 topics: ["[[Instances]]", "[[Verification]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---
@@ -14,7 +15,7 @@ updated: 2026-08-10
 
 ## Core statements
 
-- In its first pass over this vault on 2026-08-10 the adversarial machine review examined 501 pairs of a statement and its named source location, 405 of them at the distillate layer, 87 at the assertion layer and 9 at the chapter layer. ^s1
+- In its first pass over this vault on 2026-08-10 the adversarial machine review reported verdicts for 501 pairs of a statement and its named source location, 405 of them at the distillate layer, 87 at the assertion layer and 9 at the chapter layer. ^s1
     - computation: `python tools/analysis/review_pairs_by_layer.py` → `assertion 87, chapter 9, distillate 405, total 501`
 - The first pass covered 46 documents, 25 distillates, 20 assertions and one chapter. ^s2
     - computation: `python tools/analysis/review_documents_reviewed.py` → `assertion 20, chapter 1, distillate 25, total 46`

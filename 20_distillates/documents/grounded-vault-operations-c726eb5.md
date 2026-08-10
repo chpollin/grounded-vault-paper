@@ -3,9 +3,10 @@ type: distillate
 source-type: document
 representation: "[[10_markdown/documents/grounded-vault-operations-c726eb5]]"
 topics: ["[[Architecture]]", "[[Agentic Workflow]]", "[[Verification]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---
@@ -24,7 +25,7 @@ The procedure document of the Grounded Vault profile at commit `c726eb5`, from w
 
 - In the channel import, records are exported from the reference library as CSL JSON into the references folder, one file per batch of records. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops04]] ^s4
 
-- In the channel deep-research every located publication is captured in the reference manager and exported as CSL JSON, and the research report itself never becomes a source, because all anchors bind to the located publications. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops05]] ^s5
+- In the channel deep-research the research prompt is run, every located publication is captured in the reference manager and exported as CSL JSON into the references folder, the research report itself never becomes a source, and all anchors bind to the located publications. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops05]] ^s5
 
 - The deep research prompt directs the search to prioritize peer-reviewed and official sources, to apply the project exclusion list, to evaluate candidates at full text, to counter-check adversarially by searching for sources that contradict each candidate finding, and to deliver bibliographic data with verbatim passages but no synthesis, because the vault synthesizes. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops06]] ^s6
 
@@ -42,7 +43,7 @@ The procedure document of the Grounded Vault profile at commit `c726eb5`, from w
 
 - For a document source the Markdown conversion runs into the documents folder of the Markdown layer, the converter is noted in the frontmatter, the H1 is set from the original and the metadata block is filled. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops13]] ^s13
 
-- For a data source the data file is placed in the data folder of the Markdown layer and a schema description of the same slug is written alongside it with the metadata block filled. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops14]] ^s14
+- For a data source the data file is placed in the data folder of the Markdown layer, a schema description of the same slug is written, and the metadata block is filled. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops14]] ^s14
 
 - A publication source receives no Markdown representation, because the CSL JSON record in the references folder is the root of this source type. [[10_markdown/documents/grounded-vault-operations-c726eb5#^ops15]] ^s15
 

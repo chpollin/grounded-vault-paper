@@ -164,6 +164,11 @@ distillate,1,langlois-seignobos-1898-introduction,^s7,overreaches,overgeneraliza
 distillate,1,langlois-seignobos-1898-introduction,^s8,partially supports,scope mismatch
 distillate,1,langlois-seignobos-1898-introduction,^s9,partially supports,scope mismatch
 distillate,1,langlois-seignobos-1898-introduction,^s11,overreaches,overgeneralization
+chapter,1,blog-stuetzungsluecke-2026-08,generated-citations-often-fail-to-support-their-sentences,fully supports,
+chapter,1,blog-stuetzungsluecke-2026-08,resolvable-citation-without-support-is-a-distinct-error-class,fully supports,
+chapter,1,blog-stuetzungsluecke-2026-08,attribution-is-separate-from-correctness,fully supports,
+chapter,1,blog-stuetzungsluecke-2026-08,prov-validity-is-internal-consistency,fully supports,
+chapter,1,blog-stuetzungsluecke-2026-08,llm-summaries-broaden-the-scope-of-findings,fully supports,
 chapter,1,blog-stuetzungsluecke-2026-08,source-binding-lowers-unsupported-citation-without-eliminating-it,overreaches,overgeneralization
 chapter,1,blog-stuetzungsluecke-2026-08,historical-method-separates-origin-check-from-credibility,partially supports,scope mismatch
 chapter,1,blog-stuetzungsluecke-2026-08,card-index-organizes-knowledge-as-addressable-linked-notes,partially supports,producer inference

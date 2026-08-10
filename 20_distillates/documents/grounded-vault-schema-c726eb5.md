@@ -3,9 +3,10 @@ type: distillate
 source-type: document
 representation: "[[10_markdown/documents/grounded-vault-schema-c726eb5]]"
 topics: ["[[Architecture]]", "[[Provenance]]", "[[Verification]]"]
-status: grounded
+status: validated
 checked:
   validation: 2026-08-10
+  machine-review: 2026-08-10
 created: 2026-08-10
 updated: 2026-08-10
 ---
@@ -18,7 +19,7 @@ The schema document of the Grounded Vault profile at commit `c726eb5`, from whic
 
 - The schema document defines the layer model, the controlled vocabularies, the anchor mechanics per source type, the audit trail and, for every content document type, the exact frontmatter and section skeleton, and it defines only what a well-formed artifact is, while the procedures that produce and check these documents live in the operations document. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch01]] ^s1
 
-- The architecture has five layers, sources as the ground carrying no anchor, the Markdown representation carrying block IDs and, for data, file plus schema, distillates carrying grounding anchors into their source and statement IDs, assertions carrying grounding anchors into distillate statements, and the output carrying footnote anchors into assertions with posits marked. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch02]] ^s2
+- The architecture has five layers, sources as the ground carrying no anchor, the Markdown representation holding archived full texts and datasets with schema and carrying block IDs and file plus schema, distillates carrying grounding anchors into their source and statement IDs, assertions carrying grounding anchors into distillate statements, and the output carrying footnote anchors into assertions with posits marked. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch02]] ^s2
 
 - The source inventory listing every Markdown representation and every distillate is generated from the file state by a tool rather than maintained by hand, because the files are the one record of what the vault holds and a second bookkeeping could drift away from them. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch03]] ^s3
 
@@ -56,9 +57,9 @@ The schema document of the Grounded Vault profile at commit `c726eb5`, from whic
 
 - Each document type is specified by its frontmatter and, where one is fixed, its section skeleton, with fields required unless marked optional, and with wikilink values quoted and block IDs unquoted as Obsidian requires for YAML. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch20]] ^s20
 
-- There is exactly one Markdown representation per source, and a revised source enters as a new file with a date-suffixed slug, so that existing anchors keep resolving against the old file. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch21]] ^s21
+- For the source type document there is exactly one Markdown representation per source, and a revised source enters as a new file with a date-suffixed slug, so that existing anchors keep resolving against the old file. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch21]] ^s21
 
-- The body of a Markdown representation is the converted full text under an H1 taken from the original, and every anchor-relevant paragraph ends with a block ID. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch22]] ^s22
+- The body of a Markdown representation of a document is the converted full text under an H1 taken from the original, and every anchor-relevant paragraph ends with a block ID. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch22]] ^s22
 
 - Block IDs are short, stable, unique per file, and minted only in the Markdown representation. [[10_markdown/documents/grounded-vault-schema-c726eb5#^sch23]] ^s23
 
