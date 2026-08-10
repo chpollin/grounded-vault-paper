@@ -10,7 +10,7 @@ metadata:
   date: "2025"
   format: "pdf"
   identifier: "https://resolver.obvsg.at/urn:nbn:at:at-ubg:1-220602"
-  license: "All rights reserved; open access at the University of Graz repository, no open licence stated. Stored here by permission of the author, who is the vault operator."
+  license: "CC-BY-4.0; open access at the University of Graz repository without a stated licence, released under CC BY 4.0 here by the author, who is the vault operator."
   confidential: false
 created: 2026-08-10
 updated: 2026-08-10

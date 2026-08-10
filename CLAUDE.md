@@ -18,13 +18,15 @@ Paths in the second column are relative to the template checkout.
 | Write a blog post or an article chapter | `knowledge/schema.md` § Chapter, `operations.md` § Write chapters | chapters |
 | Answer a question | `knowledge/operations.md` § Query | query |
 | Check the vault | `knowledge/operations.md` § Check | validate → review |
+| Record a run of this vault as data | `knowledge/schema.md` § Markdown representation (data), § Distillate | acquire → ingest → distill |
 
 ## Instance parameters
 
 What the template leaves open, this instance decided.
 
 - Controlled topic set: Provenance, Verification, Architecture, Agentic Workflow, Instances, one `MOC-<Topic>.md` each in `30_assertions/`.
-- Active source types: document, publication, data.
+- Active source types: document, publication, data. A data source carries its file and a schema description of the same slug in `10_markdown/data/`, and each of its statements is anchored to one script in `tools/analysis/` that takes no arguments, prints the stated result and nothing else, and is re-run by validation for a character-exact comparison.
+- Licensing: the layers this project authors are CC BY 4.0, while every Markdown representation of a third-party work keeps the licence of that work in its metadata block. Before ingesting a source, check whether its licence permits an excerpted and anchored copy, and choose the publication type where it does not.
 - Output in two tracks off one assertion layer, German blog posts in `40_output/blog/` and English article chapters in `40_output/paper/`. A blog post is never a source of the article; both tracks ground in the same assertions.
 - Working language of content: English for distillates, assertions and glossary, German for the blog prose. This action layer stays English.
 - Footnote wikilinks in the blog stay unaliased, so the English assertion title appears verbatim and no alias drift arises.
@@ -35,7 +37,7 @@ What the template leaves open, this instance decided.
 ## Hard rules
 
 - Anchors are minted only at their own layer; never invent a block or statement ID that does not exist.
-- A Markdown representation is never edited after ingest; a revised source enters as a new file with a date-suffixed slug.
+- A converted Markdown representation is never edited after ingest, because its block anchors would move; a revised source enters as a new file with a date-suffixed slug. For a data source the anchor is a computation, so its data file may be corrected only where every anchored computation keeps its output character for character, and the correction is named in the commit.
 - A status is set only after its check ran; record the date in `checked`. Never set `verified`; that is the human verification role's alone.
 - Own conclusions become posits in the output, never assertions.
 - Run `python tools/validate.py .` before reporting any production task as done. Zero errors alone is not the criterion; every warning is a finding to act on.
